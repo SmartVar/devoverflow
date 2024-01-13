@@ -1,4 +1,4 @@
-import { SidebarLink, SidebarDashLink } from "@/types";
+import { SidebarLink } from "@/types";
 
 export const themes = [
   { value: "light", label: "Light", icon: "/assets/icons/sun.svg" },
@@ -10,43 +10,43 @@ export const sidebarLinks: SidebarLink[] = [
   {
     imgURL: "/assets/icons/home.svg",
     route: "/",
-    label: "Home",
+    label: "Dashboard",
   },
   {
     imgURL: "/assets/icons/users.svg",
-    route: "/community",
-    label: "Community",
+    route: "/rulings",
+    label: "Rulings",
   },
   {
     imgURL: "/assets/icons/star.svg",
-    route: "/collection",
-    label: "Collections",
+    route: "/templates",
+    label: "Templates",
   },
   {
     imgURL: "/assets/icons/suitcase.svg",
-    route: "/jobs",
-    label: "Find Jobs",
+    route: "/pendency",
+    label: "Pendency",
   },
-  {
-    imgURL: "/assets/icons/tag.svg",
-    route: "/tags",
-    label: "Tags",
-  },
-  {
-    imgURL: "/assets/icons/user.svg",
-    route: "/profile",
-    label: "Profile",
-  },
-  {
-    imgURL: "/assets/icons/question.svg",
-    route: "/ask-question",
-    label: "Ask a question",
-  },
-  {
-    imgURL: "/assets/icons/suitcase.svg",
-    route: "/dashboard",
-    label: "Dashboard",
-  },
+  // {
+  //   imgURL: "/assets/icons/tag.svg",
+  //   route: "/tags",
+  //   label: "Tags",
+  // },
+  // {
+  //   imgURL: "/assets/icons/user.svg",
+  //   route: "/profile",
+  //   label: "Profile",
+  // },
+  // {
+  //   imgURL: "/assets/icons/question.svg",
+  //   route: "/ask-question",
+  //   label: "Ask a question",
+  // },
+  // {
+  //   imgURL: "/assets/icons/suitcase.svg",
+  //   route: "/dashboard",
+  //   label: "Dashboard",
+  // },
 ];
 
 export const BADGE_CRITERIA = {
@@ -76,35 +76,3 @@ export const BADGE_CRITERIA = {
     GOLD: 100000,
   },
 };
-
-
-// Dashboards
-
-export const sidebardashLinks: SidebarDashLink[] = [
-  {
-    imgURL: "/assets/icons/suitcase.svg",
-    route: "/dashboard",
-    label: "Dashboard",
-  },
-  {
-    imgURL: "/assets/icons/users.svg",
-    route: "/templates",
-    label: "Templates",
-  },
-  {
-    imgURL: "/assets/icons/star.svg",
-    route: "/rulings",
-    label: "Rules & Procdures",
-  },
-  {
-    imgURL: "/assets/icons/suitcase.svg",
-    route: "/pendency",
-    label: "Pendency",
-  },
-  {
-    imgURL: "/assets/icons/home.svg",
-    route: "/",
-    label: "Home",
-  },
-  
-];
